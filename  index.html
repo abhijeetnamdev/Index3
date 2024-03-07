@@ -1,0 +1,15 @@
+alert("Hey, I can read your mind");
+let num1 = parseFloat(prompt("Enter a number from 1 to 10 and pick another number in your mind"));
+let num2 = parseFloat(prompt("Now add 2 in your number and also in your mine number (type below)"));
+let num3 = parseFloat(prompt("Now add 9 in your number and also in mine number (type below)"));
+let num4 = parseFloat(prompt("Now subtract that number you enter in this game ie.. and also subtract in your mine  that number you first pick in your mine calculation (type below)"));
+let num5 = parseFloat(prompt("Now subtract 5 and also subtract 5 in your mind (type below)"));
+let sum1 = num1 + num2 + num3;
+let subtract1 = sum1 - num4;
+let final = subtract1 - num5;
+alert("The answer in your mind is   Click on OK");
+if (final % 2 === 0) {
+  alert("Congratulations! Your mind is set on an even number ie....6 is an even number. 🎉");
+} else {
+  alert("hah! you did mistake in typing. 🤔");
+}
